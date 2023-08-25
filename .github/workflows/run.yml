@@ -7,8 +7,9 @@ name: Bing Today Img
 #   schedule:
 #     - cron: '0 1 * * *'
 
-push:
-    branches: [ main ]
+on:
+    push:
+        branches: [ main ]
 
 
 jobs:
