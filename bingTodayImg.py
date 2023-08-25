@@ -13,11 +13,7 @@ headers = {
 
 res = requests.get(url, headers=headers)
 res.encoding = res.apparent_encoding
-
 ret = re.search("var _model =(\{.*?\});", res.text)
-if not ret:
-    return
-
 data = json.loads(ret.group(1))
 image_content = data['MediaContents'][0]['ImageContent']
 
