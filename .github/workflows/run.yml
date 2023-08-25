@@ -5,7 +5,7 @@ name: Bing Today Img
 
 on:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '0 21 * * *'    # 国际时间 21 点，估计北京时间 5点
 
 # on:
 #     push:
