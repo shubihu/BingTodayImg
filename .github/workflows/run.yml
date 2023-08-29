@@ -43,6 +43,9 @@ jobs:
         git add today.png
         git commit -m "generated"
         git push
+
+        git config user.name shubihu
+        git config user.email jrwjb@sina.com
         git clone https://${ACCESS_TOKEN}@github.com/shubihu/shubihu.github.io.git repo
         cp today.png repo/img/
         cd repo
