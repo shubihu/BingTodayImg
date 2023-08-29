@@ -17,6 +17,9 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
@@ -32,26 +35,15 @@ jobs:
     - name: run
       run: |
         python bingTodayImg.py
-
-    - name: Set up SSH key
-      run: |
-            mkdir -p ~/.ssh
-            echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-            chmod 600 ~/.ssh/id_rsa
-            ssh-keyscan github.com >> ~/.ssh/known_hosts
-      env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-    
+        
     - name: commit
-      env:
-          REPO: git@github.com:shubihu/shubihu.github.io.git
       run: | 
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add today.png
         git commit -m "generated"
         git push
-        git clone $REPO repo
+        git clone https://${{ ACCESS_TOKEN }}@github.com/shubihu/shubihu.github.io.git repo
         copy today.png repo/img/
         cd repo
         git checkout main
