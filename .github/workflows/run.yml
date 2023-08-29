@@ -47,8 +47,8 @@ jobs:
         git config --global user.email "jrwjb@sina.com"
         git config --global user.name "shubihu"
         git clone https://${ACCESS_TOKEN}@github.com/shubihu/shubihu.github.io.git repo
-        cp today.png repo/img/
+        cp today.png repo/
         cd repo
-        git add img/today.png
-        git commit -m "Add today.png to img folder"
+        git add today.png
+        git commit -m "Add today.png"
         git push
