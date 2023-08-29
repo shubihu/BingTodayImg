@@ -17,9 +17,9 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-
+    # env:
+    #       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
@@ -43,7 +43,7 @@ jobs:
         git add today.png
         git commit -m "generated"
         git push
-        git clone https://${{ ACCESS_TOKEN }}@github.com/shubihu/shubihu.github.io.git repo
+        git clone https://${{ secrets.ACCESS_TOKEN }}@github.com/shubihu/shubihu.github.io.git repo
         copy today.png repo/img/
         cd repo
         git checkout main
