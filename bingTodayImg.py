@@ -14,13 +14,14 @@ headers = {
 res = requests.get(url, headers=headers)
 res.encoding = res.apparent_encoding
 ret = re.search("var _model =(\{.*?\});", res.text)
-data = json.loads(ret.group(1))
-image_content = data['MediaContents'][0]['ImageContent']
-
-image_url = urljoin(url, image_content['Image']['Url'])
-r = requests.get(image_url)
-with open('today.png', 'wb') as f:
-    f.write(r.content)
+if ret:
+    data = json.loads(ret.group(1))
+    image_content = data['MediaContents'][0]['ImageContent']
+    
+    image_url = urljoin(url, image_content['Image']['Url'])
+    r = requests.get(image_url)
+    with open('today.png', 'wb') as f:
+        f.write(r.content)
 
 
 
