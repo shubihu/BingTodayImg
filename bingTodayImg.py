@@ -79,12 +79,6 @@ def getPrice():
     return goldPrice_dict
 
 if __name__ == '__main__':
-    appid = "wx43bc06f0eaedf902"
-    screct = "226d73a58fe21c0ab564e1836bb02599"
-    template_id = 'K0KwLFPLXYlEaCb_VVm-6ZqbaI3uDtNuH3ifpcVVMC0'
-    goldPrice = getPrice()
-    WechatMessagePush(appid, screct, template_id).send_wechat_temple_msg(content=goldPrice)
-
     url = 'https://cn.bing.com'
     headers = {
         'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'
@@ -101,6 +95,12 @@ if __name__ == '__main__':
         r = requests.get(image_url)
         with open('today.png', 'wb') as f:
             f.write(r.content)
+
+    appid = "wx43bc06f0eaedf902"
+    screct = "226d73a58fe21c0ab564e1836bb02599"
+    template_id = 'K0KwLFPLXYlEaCb_VVm-6ZqbaI3uDtNuH3ifpcVVMC0'
+    goldPrice = getPrice()
+    WechatMessagePush(appid, screct, template_id).send_wechat_temple_msg(content=goldPrice)
 
 
 
