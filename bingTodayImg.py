@@ -61,7 +61,7 @@ class WechatMessagePush:
             res = requests.post(url=url, data=data, headers=headers)
 
 def getPrice():
-    url = 'http://vip.stock.finance.sina.com.cn/q//view/vGold_Matter_History.php?page=1&pp=0&pz=0&start=2023-08-08&end=2023-09-08'
+    url='https://vip.stock.finance.sina.com.cn/q//view/vGold_Matter_History.php?page=1&pp=0&pz=0&'
     res = requests.get(url)
     if res.status_code == 200:
         data = pd.read_html(res.text)[0]
