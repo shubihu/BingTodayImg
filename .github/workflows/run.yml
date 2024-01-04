@@ -19,6 +19,7 @@ jobs:
 
     env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITEE_TOKEN: ${{ secrets.GITEE }}
           
     steps:
     - uses: actions/checkout@v3
@@ -52,3 +53,11 @@ jobs:
         git add today.png
         git commit -m "Add today.png"
         git push
+
+        cd ~
+        git clone https://${GITEE_TOKEN}@gitee.com/wangjiabin3195/tv.git
+        cp tv.m3u tv/
+        cd tv
+        git add tv.m3u
+        git commit -m "update"
+        git push https://oauth2:${GITEE_TOKEN}@gitee.com/wangjiabin3195/tv.git
