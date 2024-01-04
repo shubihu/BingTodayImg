@@ -1,4 +1,5 @@
 import re
+import time
 import json
 from datetime import datetime
 from urllib.parse import urljoin
@@ -101,6 +102,26 @@ if __name__ == '__main__':
     template_id = 'K0KwLFPLXYlEaCb_VVm-6ZqbaI3uDtNuH3ifpcVVMC0'
     goldPrice = getPrice()
     WechatMessagePush(appid, screct, template_id).send_wechat_temple_msg(content=goldPrice)
+
+    with open('tv.m3u', 'w') as fw:
+        fw.write('#EXTM3U\n')
+    
+        with open('tvName.txt') as f:
+            for tv in f:
+                tv = tv.strip().lower()
+                try:
+                    res = requests.get(f'https://api.pearktrue.cn/api/tv/search.php?name={tv}&page=1')
+                    data = res.json().get('data', [])
+                    
+                    for item in data:
+                        if item['videoname'].strip().lower() == tv:
+                            url = item.get('link', '')
+                            fw.write(f'#EXTINF:-1,{tv}\n')
+                            fw.write(url + '\n')
+    
+                    time.sleep(5)
+                except Exception as e:
+                    print(f"Error processing {tv}: {e}")
 
 
 
