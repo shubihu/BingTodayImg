@@ -55,9 +55,9 @@ jobs:
         git push
 
         cd ~
-        git clone https://${GITEE_TOKEN}@gitee.com/wangjiabin3195/tv.git
+        git clone https://${GITEE_TOKEN}@gitee.com/yahaha3195/tv.git
         cp tv.m3u tv/
         cd tv
         git add tv.m3u
         git commit -m "update"
-        git push https://oauth2:${GITEE_TOKEN}@gitee.com/wangjiabin3195/tv.git
+        git push https://oauth2:${GITEE_TOKEN}@gitee.com/yahaha3195/tv.git
