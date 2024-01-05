@@ -3,13 +3,13 @@
 
 name: Bing Today Img
 
-on:
-  schedule:
-    - cron: '0 21 * * *'    # 国际时间 21 点，估计北京时间 5点
-
 # on:
-#     push:
-#         branches: [ main ]
+#   schedule:
+#     - cron: '0 21 * * *'    # 国际时间 21 点，估计北京时间 5点
+
+on:
+    push:
+        branches: [ main ]
 
 
 jobs:
@@ -45,18 +45,20 @@ jobs:
         git commit -m "generated"
         git push
 
-        git config --global user.email "jrwjb@sina.com"
-        git config --global user.name "shubihu"
         git clone https://${ACCESS_TOKEN}@github.com/shubihu/shubihu.github.io.git repo
         cp today.png repo/
+
+        git clone https://${GITEE_TOKEN}@gitee.com/yahaha3195/tv.git
+        cp tv.m3u tv/
+
+        git config --global user.email "jrwjb@sina.com"
+        git config --global user.name "shubihu"        
         cd repo
         git add today.png
         git commit -m "Add today.png"
         git push
 
-        cd ~
-        git clone https://${GITEE_TOKEN}@gitee.com/yahaha3195/tv.git
-        cp tv.m3u tv/
+        cd ~  
         cd tv
         git add tv.m3u
         git commit -m "update"
