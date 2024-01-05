@@ -52,9 +52,10 @@ jobs:
         cp tv.m3u tv/
         cp tv.txt tv/
 
-        git config --global user.email "jrwjb@sina.com"
-        git config --global user.name "shubihu"        
+                
         cd repo
+        git config user.email "jrwjb@sina.com"
+        git config user.name "shubihu"
         git add today.png
         git commit -m "Add today.png"
         git push
@@ -62,5 +63,5 @@ jobs:
         cd ~  
         cd tv
         git add tv.m3u tv.txt
-        git commit -m "update"
+        git diff-index --quiet HEAD || git commit -m "update"
         git push https://oauth2:${GITEE_TOKEN}@gitee.com/yahaha3195/tv.git
