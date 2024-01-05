@@ -103,25 +103,31 @@ if __name__ == '__main__':
     goldPrice = getPrice()
     WechatMessagePush(appid, screct, template_id).send_wechat_temple_msg(content=goldPrice)
 
-    with open('tv.m3u', 'w') as fw:
-        fw.write('#EXTM3U\n')
+    fw_m3u = open('tv.m3u', 'w')
+    fw_txt = open('tv.txt', 'w')
+    fw_m3u.write('#EXTM3U\n')
     
-        with open('tvName.txt') as f:
-            for tv in f:
-                tv = tv.strip().lower()
-                try:
-                    res = requests.get(f'https://api.pearktrue.cn/api/tv/search.php?name={tv}&page=1')
-                    data = res.json().get('data', [])
-                    
-                    for item in data:
-                        if item['videoname'].strip().lower() == tv:
-                            url = item.get('link', '')
-                            fw.write(f'#EXTINF:-1,{tv}\n')
-                            fw.write(url + '\n')
+    with open('tvName.txt') as f:
+        for tv in f:
+            tv = tv.strip().lower()
+            try:
+                res = requests.get(f'https://api.pearktrue.cn/api/tv/search.php?name={tv}&page=1')
+                data = res.json().get('data', [])
+                
+                for item in data:
+                    if item['videoname'].strip().lower() == tv:
+                        url = item.get('link', '')
+                        fw_m3u.write(f'#EXTINF:-1 group-title="groupName=国内",{tv}\n')
+                        fw_m3u.write(url + '\n')
+                        fw_txt.write(f'{tv},{url}\n')
+
+                time.sleep(5)
+            except Exception as e:
+                print(f"Error processing {tv}: {e}")
+
+    fw_m3u.close()
+    fw_txt.close()
     
-                    time.sleep(5)
-                except Exception as e:
-                    print(f"Error processing {tv}: {e}")
 
 
 
