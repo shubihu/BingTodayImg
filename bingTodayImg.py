@@ -106,6 +106,7 @@ if __name__ == '__main__':
     fw_m3u = open('tv.m3u', 'w')
     fw_txt = open('tv.txt', 'w')
     fw_m3u.write('#EXTM3U\n')
+    fw_txt.write('国内,#genre#\n')
     
     with open('tvName.txt') as f:
         for tv in f:
