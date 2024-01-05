@@ -58,7 +58,7 @@ jobs:
         git add today.png
         git diff-index --quiet HEAD || (git commit -m "update" && git push)
 
-        cd ~  
+        cd ..
         cd tv
         git config user.email "jrwjb@sina.com"
         git config user.name "yahaha3195"
