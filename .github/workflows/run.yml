@@ -42,8 +42,7 @@ jobs:
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add today.png tv.m3u tv.txt
-        git commit -m "generated"
-        git push
+        git diff-index --quiet HEAD || (git commit -m "update" && git push)
 
         git clone https://${ACCESS_TOKEN}@github.com/shubihu/shubihu.github.io.git repo
         cp today.png repo/
@@ -57,13 +56,11 @@ jobs:
         git config user.email "jrwjb@sina.com"
         git config user.name "shubihu"
         git add today.png
-        git commit -m "Add today.png"
-        git push
+        git diff-index --quiet HEAD || (git commit -m "update" && git push)
 
         cd ~  
         cd tv
         git config user.email "jrwjb@sina.com"
         git config user.name "yahaha3195"
         git add tv.m3u tv.txt
-        git commit -m "update"
-        git push https://oauth2:${GITEE_TOKEN}@gitee.com/yahaha3195/tv.git
+        git diff-index --quiet HEAD || (git commit -m "update" && git push https://oauth2:${GITEE_TOKEN}@gitee.com/yahaha3195/tv.git)
