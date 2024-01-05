@@ -119,9 +119,9 @@ if __name__ == '__main__':
                     if item['videoname'].strip().lower() == tv:
                         url = item.get('link', '')
                         if url.endswith('m3u8'):
-                            fw_m3u.write(f'#EXTINF:-1 group-title="groupName=国内",{tv}\n')
+                            fw_m3u.write(f'#EXTINF:-1 group-title="国内",{tv.upper()}\n')
                             fw_m3u.write(url + '\n')
-                            fw_txt.write(f'{tv},{url}\n')
+                            fw_txt.write(f'{tv.upper()},{url}\n')
 
                 time.sleep(5)
             except Exception as e:
