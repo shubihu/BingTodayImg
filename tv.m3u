@@ -4,9 +4,9 @@ http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/inde
 #EXTINF:-1 group-title="国内",CCTV1
 https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
 #EXTINF:-1 group-title="国内",CCTV1
-http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225804/1.m3u8
-#EXTINF:-1 group-title="国内",CCTV1
 https://iptv.luas.edu.cn/liverespath/b455c7a019d404d571655c457e0ee8a9440a7802/e0eea3f2cd-0-0-7b16046e28b9e794d06c5fbcc82d37b9/index.m3u8
+#EXTINF:-1 group-title="国内",CCTV1
+http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225804/1.m3u8
 #EXTINF:-1 group-title="国内",CCTV1
 http://121.19.134.245:808/tsfile/live/0001_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV1
@@ -25,8 +25,8 @@ http://183.134.3.22:8888/newlive/live/hls/2/live.m3u8
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226016/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV1
 http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/cctv1hd8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="国内",CCTV1
-http://221.2.146.228:8888/newlive/live/hls/2/live.m3u8
+#EXTINF:-1 group-title="国内",CCTV2
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226739/1.m3u8
 #EXTINF:-1 group-title="国内",CCTV2
 http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226195/1.m3u8
 #EXTINF:-1 group-title="国内",CCTV2
@@ -36,13 +36,11 @@ http://121.19.134.245:808/tsfile/live/0002_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV2
 http://119.54.2.125:58000/hls/2/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV2
-http://36.33.240.48:9901/tsfile/live/0002_1.m3u8
-#EXTINF:-1 group-title="国内",CCTV2
 http://222.217.246.54:8282/tsfile/live/1013_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV2
-http://58.19.38.233:8888/newlive/live/hls/3/live.m3u8
+http://36.33.240.48:9901/tsfile/live/0002_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV2
-http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226739/1.m3u8
+http://58.19.38.233:8888/newlive/live/hls/3/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV2
 https://node1.olelive.com:6443/live/CCTV2HD/hls.m3u8
 #EXTINF:-1 group-title="国内",CCTV2
@@ -62,21 +60,21 @@ http://645c6e6320d051d49b446bac57d65143.v.smtcdns.net/tlivecloud-ipv6.ysp.cctv.c
 #EXTINF:-1 group-title="国内",CCTV3
 https://node1.olelive.com:6443/live/CCTV3HD/hls.m3u8
 #EXTINF:-1 group-title="国内",CCTV3
+http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226397/1.m3u8
+#EXTINF:-1 group-title="国内",CCTV3
 https://iptv.luas.edu.cn/liverespath/f76f9947c68be18d7a456e25aa59a08c5747e6a5/0df24da9ec-0-0-dca40ddadd2a051ce1a83536d9310820/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV3
 http://58.19.38.233:8888/newlive/live/hls/4/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV3
-http://119.54.2.125:58000/hls/3/index.m3u8
-#EXTINF:-1 group-title="国内",CCTV3
 http://222.217.246.54:8282/tsfile/live/1014_1.m3u8
+#EXTINF:-1 group-title="国内",CCTV3
+http://119.54.2.125:58000/hls/3/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV3
 http://36.33.240.48:9901/tsfile/live/0003_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV3
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226021/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV3
 http://121.19.134.245:808/tsfile/live/0003_1.m3u8
-#EXTINF:-1 group-title="国内",CCTV3
-http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226397/1.m3u8
 #EXTINF:-1 group-title="国内",CCTV3
 http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226720/1.m3u8
 #EXTINF:-1 group-title="国内",CCTV3
@@ -100,11 +98,11 @@ http://218.17.181.26:1099/tsfile/live/0003_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV4
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 #EXTINF:-1 group-title="国内",CCTV4
+https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
+#EXTINF:-1 group-title="国内",CCTV4
 https://iptv.luas.edu.cn/liverespath/c70d81eefb04fef7777c2a5aab4ddc9459ce4246/0baa43f537-0-0-5bc4eda6a2031a1140906b86d867a79e/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV4
 http://119.54.2.125:58000/hls/4/index.m3u8
-#EXTINF:-1 group-title="国内",CCTV4
-https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
 #EXTINF:-1 group-title="国内",CCTV4
 http://36.33.240.48:9901/tsfile/live/0004_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV4
@@ -120,11 +118,13 @@ http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/cctv4hd8m/8000000/m
 #EXTINF:-1 group-title="国内",CCTV5
 https://node1.olelive.com:6443/live/CCTV5HD/hls.m3u8
 #EXTINF:-1 group-title="国内",CCTV5
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226731/1.m3u8
+#EXTINF:-1 group-title="国内",CCTV5
+http://222.217.246.54:8282/tsfile/live/1016_1.m3u8
+#EXTINF:-1 group-title="国内",CCTV5
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226019/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV5
 http://119.54.2.125:58000/hls/5/index.m3u8
-#EXTINF:-1 group-title="国内",CCTV5
-http://222.217.246.54:8282/tsfile/live/1016_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV5
 http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226395/1.m3u8
 #EXTINF:-1 group-title="国内",CCTV5
@@ -134,21 +134,19 @@ http://36.33.240.48:9901/tsfile/live/0005_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV5
 http://121.19.134.245:808/tsfile/live/0005_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV5
-http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226731/1.m3u8
-#EXTINF:-1 group-title="国内",CCTV5
 http://58.19.38.233:8888/newlive/live/hls/6/live.m3u8
-#EXTINF:-1 group-title="国内",CCTV6
-http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226393/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV6
 https://iptv.luas.edu.cn/liverespath/f2f39ee2105c85c32df375728a51b5d89d3afab4/113ed89f48-0-0-85216e55861329ec31ba1437a2ff37c9/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV6
+http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226393/index.m3u8
+#EXTINF:-1 group-title="国内",CCTV6
 http://36.33.240.48:9901/tsfile/live/0006_1.m3u8
+#EXTINF:-1 group-title="国内",CCTV6
+http://222.217.246.54:8282/tsfile/live/1017_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV6
 http://58.19.38.233:8888/newlive/live/hls/8/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV6
 http://119.54.2.125:58000/hls/6/index.m3u8
-#EXTINF:-1 group-title="国内",CCTV6
-http://222.217.246.54:8282/tsfile/live/1017_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV6
 http://121.19.134.245:808/tsfile/live/0006_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV6
@@ -212,15 +210,15 @@ http://218.17.181.26:1099/tsfile/live/0007_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV7
 http://61.182.33.218:8000/hls/7/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226715/1.m3u8
+#EXTINF:-1 group-title="国内",CCTV8
 https://iptv.luas.edu.cn/liverespath/9e6e3b618b5dc902d992949f0c669bb674f6cde8/cae4471c68-0-0-316245c664c3311072c7279ec29672fe/index.m3u8
+#EXTINF:-1 group-title="国内",CCTV8
+http://222.217.246.54:8282/tsfile/live/1019_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV8
 http://58.19.38.233:8888/newlive/live/hls/10/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV8
 http://119.54.2.125:58000/hls/8/index.m3u8
-#EXTINF:-1 group-title="国内",CCTV8
-http://222.217.246.54:8282/tsfile/live/1019_1.m3u8
-#EXTINF:-1 group-title="国内",CCTV8
-http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226715/1.m3u8
 #EXTINF:-1 group-title="国内",CCTV8
 http://61.182.33.218:8000/hls/8/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV8
@@ -246,13 +244,13 @@ http://cfss.cc/api/ysp/cctv8.m3u8
 #EXTINF:-1 group-title="国内",CCTV9
 https://node1.olelive.com:6443/live/CCTV9HD/hls.m3u8
 #EXTINF:-1 group-title="国内",CCTV9
-http://119.54.2.125:58000/hls/9/index.m3u8
+http://121.19.134.245:808/tsfile/live/0009_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV9
 http://222.217.246.54:8282/tsfile/live/1020_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV9
-http://36.33.240.48:9901/tsfile/live/0009_1.m3u8
+http://119.54.2.125:58000/hls/9/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV9
-http://121.19.134.245:808/tsfile/live/0009_1.m3u8
+http://36.33.240.48:9901/tsfile/live/0009_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV9
 https://iptv.luas.edu.cn/liverespath/0d0f0da65ba843b8d1dd6fed315bfea896ddd20d/a1920294b0-0-0-f3b9b294fd2e3c4db85f962e6949c4a1/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV9
@@ -284,9 +282,9 @@ http://113.57.109.36:9901/tsfile/live/0009_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV9
 http://183.237.231.139:9901/tsfile/live/1009_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV10
-http://119.54.2.125:58000/hls/10/index.m3u8
-#EXTINF:-1 group-title="国内",CCTV10
 http://222.217.246.54:8282/tsfile/live/0010_1.m3u8
+#EXTINF:-1 group-title="国内",CCTV10
+http://119.54.2.125:58000/hls/10/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV10
 http://36.33.240.48:9901/tsfile/live/0010_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV10
@@ -326,9 +324,9 @@ http://113.57.109.36:9901/tsfile/live/0010_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV11
 https://iptv.luas.edu.cn/liverespath/3d0aa0f1604f13f0ae90c2dc0590ca22a1bcaaa2/646e868153-0-0-a53121a1df5b93a74d1980270e652878/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV11
-http://119.54.2.125:58000/hls/11/index.m3u8
-#EXTINF:-1 group-title="国内",CCTV11
 http://222.217.246.54:8282/tsfile/live/1022_1.m3u8
+#EXTINF:-1 group-title="国内",CCTV11
+http://119.54.2.125:58000/hls/11/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV11
 http://36.33.240.48:9901/tsfile/live/0011_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV11
@@ -366,9 +364,9 @@ http://61.182.33.218:8000/hls/11/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV12
 https://iptv.luas.edu.cn/liverespath/fb84bde1de15cdb0308a7910cebc0497594ae94e/e2d8885f42-0-0-6e1f55986652ba786606a116c5cc0775/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV12
-http://119.54.2.125:58000/hls/12/index.m3u8
-#EXTINF:-1 group-title="国内",CCTV12
 http://222.217.246.54:8282/tsfile/live/0012_1.m3u8
+#EXTINF:-1 group-title="国内",CCTV12
+http://119.54.2.125:58000/hls/12/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV12
 http://36.33.240.48:9901/tsfile/live/0012_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV12
@@ -408,13 +406,13 @@ https://node1.olelive.com:6443/live/CCTV13HD/hls.m3u8
 #EXTINF:-1 group-title="国内",CCTV13
 https://live-play.cctvnews.cctv.com/cctv/merge_cctv13_mud.m3u8
 #EXTINF:-1 group-title="国内",CCTV13
-http://119.54.2.125:58000/hls/13/index.m3u8
+http://121.19.134.245:808/tsfile/live/0013_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV13
 http://222.217.246.54:8282/tsfile/live/1024_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV13
-http://36.33.240.48:9901/tsfile/live/0013_1.m3u8
+http://119.54.2.125:58000/hls/13/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV13
-http://121.19.134.245:808/tsfile/live/0013_1.m3u8
+http://36.33.240.48:9901/tsfile/live/0013_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV13
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226233/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV13
@@ -430,17 +428,17 @@ http://221.2.146.228:8888/newlive/live/hls/14/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV13
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226011/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV14
-http://119.54.2.125:58000/hls/14/index.m3u8
+https://iptv.luas.edu.cn/liverespath/0e0973e58d4835f4b872548164462930003f77b4/0ef01acfdb-0-0-3c10e95bcde07ba14f0f93a8d831b684/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV14
 http://222.217.246.54:8282/tsfile/live/1026_1.m3u8
+#EXTINF:-1 group-title="国内",CCTV14
+http://119.54.2.125:58000/hls/14/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV14
 https://node1.olelive.com:6443/live/CCTV14HD/hls.m3u8
 #EXTINF:-1 group-title="国内",CCTV14
 http://36.33.240.48:9901/tsfile/live/0014_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV14
 http://121.19.134.245:808/tsfile/live/0014_1.m3u8
-#EXTINF:-1 group-title="国内",CCTV14
-https://iptv.luas.edu.cn/liverespath/0e0973e58d4835f4b872548164462930003f77b4/0ef01acfdb-0-0-3c10e95bcde07ba14f0f93a8d831b684/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV14
 http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226645/1.m3u8
 #EXTINF:-1 group-title="国内",CCTV14
@@ -472,15 +470,15 @@ http://101.27.38.148:8888/hls/14/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV14
 http://113.57.109.36:9901/tsfile/live/0014_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV15
-http://119.54.2.125:58000/hls/15/index.m3u8
+https://iptv.luas.edu.cn/liverespath/59c02d176e7c3b05a62a9bb42be1ca2a92df2e1c/aefabb5259-0-0-65038e86b205c58b18c0c661afd99fae/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV15
 http://222.217.246.54:8282/tsfile/live/1025_1.m3u8
+#EXTINF:-1 group-title="国内",CCTV15
+http://119.54.2.125:58000/hls/15/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV15
 http://36.33.240.48:9901/tsfile/live/0015_1.m3u8
 #EXTINF:-1 group-title="国内",CCTV15
 http://121.19.134.245:808/tsfile/live/0015_1.m3u8
-#EXTINF:-1 group-title="国内",CCTV15
-https://iptv.luas.edu.cn/liverespath/59c02d176e7c3b05a62a9bb42be1ca2a92df2e1c/aefabb5259-0-0-65038e86b205c58b18c0c661afd99fae/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV15
 http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/cctv15hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="国内",CCTV15
@@ -528,9 +526,9 @@ http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226825/1.m3u8
 #EXTINF:-1 group-title="国内",CCTV16
 http://mqiptv.com:8014/ch/cctv16/mqlive.m3u8
 #EXTINF:-1 group-title="国内",北京卫视
-http://119.54.2.125:58000/hls/30/index.m3u8
-#EXTINF:-1 group-title="国内",北京卫视
 http://222.217.246.54:8282/tsfile/live/1027_1.m3u8
+#EXTINF:-1 group-title="国内",北京卫视
+http://119.54.2.125:58000/hls/30/index.m3u8
 #EXTINF:-1 group-title="国内",北京卫视
 http://36.33.240.48:9901/tsfile/live/0122_1.m3u8
 #EXTINF:-1 group-title="国内",北京卫视
@@ -606,13 +604,13 @@ http://113.57.109.36:9901/tsfile/live/0135_1.m3u8
 #EXTINF:-1 group-title="国内",天津卫视
 http://58.19.13.92:9901/tsfile/live/1024_1.m3u8
 #EXTINF:-1 group-title="国内",河北卫视
+http://222.217.246.54:8282/tsfile/live/1041_1.m3u8
+#EXTINF:-1 group-title="国内",河北卫视
 http://36.33.240.48:9901/tsfile/live/0117_1.m3u8
 #EXTINF:-1 group-title="国内",河北卫视
 http://121.19.134.245:808/tsfile/live/0019_1.m3u8
 #EXTINF:-1 group-title="国内",河北卫视
 http://119.54.2.125:58000/hls/43/index.m3u8
-#EXTINF:-1 group-title="国内",河北卫视
-http://222.217.246.54:8282/tsfile/live/1041_1.m3u8
 #EXTINF:-1 group-title="国内",河北卫视
 https://iptv.luas.edu.cn/liverespath/0d0303a991ca71e06290b546e34104dbe0d0c64a/b12d4a68a3-0-0-521fc1584583f4058abf1ad14cee60f7/index.m3u8
 #EXTINF:-1 group-title="国内",河北卫视
@@ -692,11 +690,13 @@ http://111.225.92.130:8800/hls/53/index.m3u8
 #EXTINF:-1 group-title="国内",山西卫视
 http://180.97.247.27/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel54/index.m3u8
 #EXTINF:-1 group-title="国内",内蒙古卫视
-http://119.54.2.125:58000/hls/53/index.m3u8
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001068/index.m3u8
+#EXTINF:-1 group-title="国内",内蒙古卫视
+https://iptv.luas.edu.cn/liverespath/5a601b122fcaacb6480b65cb74ee8f76347020d6/aae176985f-0-0-f061a231739c0eef9eedd7098db170e9/index.m3u8
 #EXTINF:-1 group-title="国内",内蒙古卫视
 http://222.217.246.54:8282/tsfile/live/0109_1.m3u8
 #EXTINF:-1 group-title="国内",内蒙古卫视
-https://iptv.luas.edu.cn/liverespath/5a601b122fcaacb6480b65cb74ee8f76347020d6/aae176985f-0-0-f061a231739c0eef9eedd7098db170e9/index.m3u8
+http://119.54.2.125:58000/hls/53/index.m3u8
 #EXTINF:-1 group-title="国内",内蒙古卫视
 http://36.33.240.48:9901/tsfile/live/0109_1.m3u8
 #EXTINF:-1 group-title="国内",内蒙古卫视
@@ -707,8 +707,6 @@ http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/nmgws/1300000/mnf.m
 http://121.24.99.45:8090/hls/43/index.m3u8
 #EXTINF:-1 group-title="国内",内蒙古卫视
 http://111.225.93.57:8800/hls/54/index.m3u8
-#EXTINF:-1 group-title="国内",内蒙古卫视
-http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001068/index.m3u8
 #EXTINF:-1 group-title="国内",内蒙古卫视
 http://[2409:8087:74F1:0021::0008]:80/PLTV/88888888/224/3221225664/1.m3u8
 #EXTINF:-1 group-title="国内",内蒙古卫视
@@ -780,9 +778,9 @@ http://113.57.109.36:9901/tsfile/live/0121_1.m3u8
 #EXTINF:-1 group-title="国内",辽宁卫视
 http://58.19.13.92:9901/tsfile/live/1027_1.m3u8
 #EXTINF:-1 group-title="国内",吉林卫视
-http://119.54.2.125:58000/hls/18/index.m3u8
-#EXTINF:-1 group-title="国内",吉林卫视
 http://222.217.246.54:8282/tsfile/live/1059_1.m3u8
+#EXTINF:-1 group-title="国内",吉林卫视
+http://119.54.2.125:58000/hls/18/index.m3u8
 #EXTINF:-1 group-title="国内",吉林卫视
 http://36.33.240.48:9901/tsfile/live/0116_1.m3u8
 #EXTINF:-1 group-title="国内",吉林卫视
@@ -819,20 +817,18 @@ http://218.17.181.26:1099/tsfile/live/0017_1.m3u8
 http://61.182.33.218:8000/hls/35/index.m3u8
 #EXTINF:-1 group-title="国内",吉林卫视
 http://183.237.231.139:9901/tsfile/live/1086_1.m3u8
-#EXTINF:-1 group-title="国内",吉林卫视
-http://180.97.247.27/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel20/index.m3u8
+#EXTINF:-1 group-title="国内",黑龙江卫视
+https://iptv.luas.edu.cn/liverespath/fe1745c7599e85d0a34fa0ad3986ef25c2ed7c6f/62f40ca683-0-0-8f0a9a264759754e90aa804bf7e9f8a8/index.m3u8
+#EXTINF:-1 group-title="国内",黑龙江卫视
+http://222.217.246.54:8282/tsfile/live/1040_1.m3u8
 #EXTINF:-1 group-title="国内",黑龙江卫视
 http://111.225.93.57:8800/hls/40/index.m3u8
 #EXTINF:-1 group-title="国内",黑龙江卫视
 http://119.54.2.125:58000/hls/42/index.m3u8
 #EXTINF:-1 group-title="国内",黑龙江卫视
-http://222.217.246.54:8282/tsfile/live/1040_1.m3u8
-#EXTINF:-1 group-title="国内",黑龙江卫视
 http://36.33.240.48:9901/tsfile/live/0143_1.m3u8
 #EXTINF:-1 group-title="国内",黑龙江卫视
 http://121.19.134.245:808/tsfile/live/1020_1.m3u8
-#EXTINF:-1 group-title="国内",黑龙江卫视
-https://iptv.luas.edu.cn/liverespath/fe1745c7599e85d0a34fa0ad3986ef25c2ed7c6f/62f40ca683-0-0-8f0a9a264759754e90aa804bf7e9f8a8/index.m3u8
 #EXTINF:-1 group-title="国内",黑龙江卫视
 http://221.2.146.228:8888/newlive/live/hls/31/live.m3u8
 #EXTINF:-1 group-title="国内",黑龙江卫视
@@ -868,11 +864,11 @@ http://218.17.196.234:9901/tsfile/live/0107_1.m3u8
 #EXTINF:-1 group-title="国内",江苏卫视
 https://iptv.luas.edu.cn/liverespath/0be64515076e489456de2f33e7b58ff1b392d3b3/8c0352e42d-0-0-2529f61c8f420136013f1ab8a93169c3/index.m3u8
 #EXTINF:-1 group-title="国内",江苏卫视
+http://222.217.246.54:8282/tsfile/live/1011_1.m3u8
+#EXTINF:-1 group-title="国内",江苏卫视
 http://58.19.38.233:8888/newlive/live/hls/22/live.m3u8
 #EXTINF:-1 group-title="国内",江苏卫视
 http://119.54.2.125:58000/hls/32/index.m3u8
-#EXTINF:-1 group-title="国内",江苏卫视
-http://222.217.246.54:8282/tsfile/live/1011_1.m3u8
 #EXTINF:-1 group-title="国内",江苏卫视
 http://36.33.240.48:9901/tsfile/live/0127_1.m3u8
 #EXTINF:-1 group-title="国内",江苏卫视
@@ -904,9 +900,9 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225612/index.m3u8
 #EXTINF:-1 group-title="国内",浙江卫视
 https://iptv.luas.edu.cn/liverespath/f650ba03bb4883fe67a1fb7c193a00a4c0c93881/a2d2162784-0-0-56b13eabd03cd0ff33e9bc019e1fb073/index.m3u8
 #EXTINF:-1 group-title="国内",浙江卫视
-http://119.54.2.125:58000/hls/33/index.m3u8
-#EXTINF:-1 group-title="国内",浙江卫视
 http://222.217.246.54:8282/tsfile/live/1034_1.m3u8
+#EXTINF:-1 group-title="国内",浙江卫视
+http://119.54.2.125:58000/hls/33/index.m3u8
 #EXTINF:-1 group-title="国内",浙江卫视
 http://36.33.240.48:9901/tsfile/live/0124_1.m3u8
 #EXTINF:-1 group-title="国内",浙江卫视
@@ -944,11 +940,11 @@ http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001023/index.m3u8
 #EXTINF:-1 group-title="国内",浙江卫视
 http://cfss.cc/api/ysp/zjws.m3u8
 #EXTINF:-1 group-title="国内",安徽卫视
+https://iptv.luas.edu.cn/liverespath/6e91e17de838dbf7c77f9ed8e41726bd4a1516f5/494a63d492-0-0-94541fa104bd30ce82410455ab950402/index.m3u8
+#EXTINF:-1 group-title="国内",安徽卫视
 http://36.33.240.48:9901/tsfile/live/0130_1.m3u8
 #EXTINF:-1 group-title="国内",安徽卫视
 http://121.19.134.245:808/tsfile/live/1013_1.m3u8
-#EXTINF:-1 group-title="国内",安徽卫视
-https://iptv.luas.edu.cn/liverespath/6e91e17de838dbf7c77f9ed8e41726bd4a1516f5/494a63d492-0-0-94541fa104bd30ce82410455ab950402/index.m3u8
 #EXTINF:-1 group-title="国内",安徽卫视
 http://119.54.2.125:58000/hls/38/index.m3u8
 #EXTINF:-1 group-title="国内",安徽卫视
@@ -980,6 +976,8 @@ http://218.17.181.26:1099/tsfile/live/0130_1.m3u8
 #EXTINF:-1 group-title="国内",安徽卫视
 http://61.182.33.218:8000/hls/27/index.m3u8
 #EXTINF:-1 group-title="国内",江西卫视
+https://iptv.luas.edu.cn/liverespath/5262d7f97311b82a4a460f3b8221e4a7d394c2c0/74d69d122b-0-0-db9e2346ab702f9e87c09d7de7b9d5d0/index.m3u8
+#EXTINF:-1 group-title="国内",江西卫视
 http://222.217.246.54:8282/tsfile/live/1047_1.m3u8
 #EXTINF:-1 group-title="国内",江西卫视
 http://119.54.2.125:58000/hls/54/index.m3u8
@@ -987,8 +985,6 @@ http://119.54.2.125:58000/hls/54/index.m3u8
 http://36.33.240.48:9901/tsfile/live/0138_1.m3u8
 #EXTINF:-1 group-title="国内",江西卫视
 http://121.19.134.245:808/tsfile/live/1022_1.m3u8
-#EXTINF:-1 group-title="国内",江西卫视
-https://iptv.luas.edu.cn/liverespath/5262d7f97311b82a4a460f3b8221e4a7d394c2c0/74d69d122b-0-0-db9e2346ab702f9e87c09d7de7b9d5d0/index.m3u8
 #EXTINF:-1 group-title="国内",江西卫视
 http://39.134.115.163:8080/PLTV/88888910/224/3221225746/index.m3u8
 #EXTINF:-1 group-title="国内",江西卫视
@@ -1058,9 +1054,9 @@ https://iptv.luas.edu.cn/liverespath/4bc76db1677c6cd2176e652ed6fc1cd44d8c297b/7e
 #EXTINF:-1 group-title="国内",河南卫视
 http://36.33.240.48:9901/tsfile/live/0139_1.m3u8
 #EXTINF:-1 group-title="国内",河南卫视
-http://119.54.2.125:58000/hls/51/index.m3u8
-#EXTINF:-1 group-title="国内",河南卫视
 http://222.217.246.54:8282/tsfile/live/1015_1.m3u8
+#EXTINF:-1 group-title="国内",河南卫视
+http://119.54.2.125:58000/hls/51/index.m3u8
 #EXTINF:-1 group-title="国内",河南卫视
 http://121.19.134.245:808/tsfile/live/1019_1.m3u8
 #EXTINF:-1 group-title="国内",河南卫视
@@ -1132,17 +1128,17 @@ http://113.57.109.36:9901/tsfile/live/1013_1.m3u8
 #EXTINF:-1 group-title="国内",湖北卫视
 http://111.225.92.130:8800/hls/45/index.m3u8
 #EXTINF:-1 group-title="国内",湖南卫视
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225610/index.m3u8
-#EXTINF:-1 group-title="国内",湖南卫视
 https://iptv.luas.edu.cn/liverespath/9b1ccba5a2c611bb5d7c96243695572090cca5fd/3777bfb47d-0-0-654e705fbb80feea4c6f5105072a6d33/index.m3u8
 #EXTINF:-1 group-title="国内",湖南卫视
 http://36.33.240.48:9901/tsfile/live/0128_1.m3u8
 #EXTINF:-1 group-title="国内",湖南卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225610/index.m3u8
+#EXTINF:-1 group-title="国内",湖南卫视
+http://222.217.246.54:8282/tsfile/live/1032_1.m3u8
+#EXTINF:-1 group-title="国内",湖南卫视
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001026/index.m3u8
 #EXTINF:-1 group-title="国内",湖南卫视
 http://119.54.2.125:58000/hls/34/index.m3u8
-#EXTINF:-1 group-title="国内",湖南卫视
-http://222.217.246.54:8282/tsfile/live/1032_1.m3u8
 #EXTINF:-1 group-title="国内",湖南卫视
 http://121.19.134.245:808/tsfile/live/1010_1.m3u8
 #EXTINF:-1 group-title="国内",湖南卫视
@@ -1166,17 +1162,17 @@ http://61.134.231.42:9999/tsfile/live/0128_1.m3u8
 #EXTINF:-1 group-title="国内",湖南卫视
 http://58.19.38.233:8888/newlive/live/hls/23/live.m3u8
 #EXTINF:-1 group-title="国内",广东卫视
+http://58.19.38.233:8888/newlive/live/hls/21/live.m3u8
+#EXTINF:-1 group-title="国内",广东卫视
 https://iptv.luas.edu.cn/liverespath/57e80ee85ec1f4e523e1bca55f5a676abd292db8/0ff9a42344-0-0-0eb4f8fe53cdbc02d1db696ecc425752/index.m3u8
 #EXTINF:-1 group-title="国内",广东卫视
-http://119.54.2.125:58000/hls/39/index.m3u8
-#EXTINF:-1 group-title="国内",广东卫视
 http://222.217.246.54:8282/tsfile/live/1031_1.m3u8
+#EXTINF:-1 group-title="国内",广东卫视
+http://119.54.2.125:58000/hls/39/index.m3u8
 #EXTINF:-1 group-title="国内",广东卫视
 http://36.33.240.48:9901/tsfile/live/0125_1.m3u8
 #EXTINF:-1 group-title="国内",广东卫视
 http://121.19.134.245:808/tsfile/live/1028_1.m3u8
-#EXTINF:-1 group-title="国内",广东卫视
-http://58.19.38.233:8888/newlive/live/hls/21/live.m3u8
 #EXTINF:-1 group-title="国内",广东卫视
 http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/gdwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="国内",广东卫视
@@ -1206,17 +1202,19 @@ http://61.182.33.218:8000/hls/23/index.m3u8
 #EXTINF:-1 group-title="国内",广东卫视
 http://113.57.109.36:9901/tsfile/live/0125_1.m3u8
 #EXTINF:-1 group-title="国内",广西卫视
+http://live.gxrb.com.cn/tv/gxtvlive03/index.m3u8
+#EXTINF:-1 group-title="国内",广西卫视
+http://221.2.146.228:8888/newlive/live/hls/39/live.m3u8
+#EXTINF:-1 group-title="国内",广西卫视
 http://58.19.38.233:8888/newlive/live/hls/26/live.m3u8
-#EXTINF:-1 group-title="国内",广西卫视
-http://119.54.2.125:58000/hls/55/index.m3u8
-#EXTINF:-1 group-title="国内",广西卫视
-http://222.217.246.54:8282/tsfile/live/1030_1.m3u8
 #EXTINF:-1 group-title="国内",广西卫视
 http://36.33.240.48:9901/tsfile/live/0113_1.m3u8
 #EXTINF:-1 group-title="国内",广西卫视
-http://121.19.134.245:808/tsfile/live/0113_1.m3u8
+http://222.217.246.54:8282/tsfile/live/1030_1.m3u8
 #EXTINF:-1 group-title="国内",广西卫视
-http://live.gxrb.com.cn/tv/gxtvlive03/index.m3u8
+http://119.54.2.125:58000/hls/55/index.m3u8
+#EXTINF:-1 group-title="国内",广西卫视
+http://121.19.134.245:808/tsfile/live/0113_1.m3u8
 #EXTINF:-1 group-title="国内",广西卫视
 http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/gxwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="国内",广西卫视
@@ -1225,8 +1223,6 @@ http://121.24.99.45:8090/hls/85/index.m3u8
 http://111.225.93.57:8800/hls/50/index.m3u8
 #EXTINF:-1 group-title="国内",广西卫视
 http://61.134.231.42:9999/tsfile/live/0113_1.m3u8
-#EXTINF:-1 group-title="国内",广西卫视
-http://221.2.146.228:8888/newlive/live/hls/39/live.m3u8
 #EXTINF:-1 group-title="国内",广西卫视
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001224/index.m3u8
 #EXTINF:-1 group-title="国内",广西卫视
@@ -1278,11 +1274,11 @@ http://218.13.170.98:9901/tsfile/live/1020_1.m3u8
 #EXTINF:-1 group-title="国内",重庆卫视
 http://183.134.3.22:8888/newlive/live/hls/30/live.m3u8
 #EXTINF:-1 group-title="国内",重庆卫视
-http://119.54.2.125:58000/hls/46/index.m3u8
+https://iptv.luas.edu.cn/liverespath/b14734af7f740eb61419248c57e25551a7d1093f/5255a86445-0-0-4ce4f2e82145e9bc39b5b4ccd7cce4a0/index.m3u8
 #EXTINF:-1 group-title="国内",重庆卫视
 http://222.217.246.54:8282/tsfile/live/1050_1.m3u8
 #EXTINF:-1 group-title="国内",重庆卫视
-https://iptv.luas.edu.cn/liverespath/b14734af7f740eb61419248c57e25551a7d1093f/5255a86445-0-0-4ce4f2e82145e9bc39b5b4ccd7cce4a0/index.m3u8
+http://119.54.2.125:58000/hls/46/index.m3u8
 #EXTINF:-1 group-title="国内",重庆卫视
 http://36.33.240.48:9901/tsfile/live/0142_1.m3u8
 #EXTINF:-1 group-title="国内",重庆卫视
@@ -1320,9 +1316,9 @@ http://110.183.27.48:808/hls/38/index.m3u8
 #EXTINF:-1 group-title="国内",四川卫视
 http://36.33.240.48:9901/tsfile/live/0123_1.m3u8
 #EXTINF:-1 group-title="国内",四川卫视
-http://119.54.2.125:58000/hls/57/index.m3u8
-#EXTINF:-1 group-title="国内",四川卫视
 http://222.217.246.54:8282/tsfile/live/1048_1.m3u8
+#EXTINF:-1 group-title="国内",四川卫视
+http://119.54.2.125:58000/hls/57/index.m3u8
 #EXTINF:-1 group-title="国内",四川卫视
 http://121.19.134.245:808/tsfile/live/1021_1.m3u8
 #EXTINF:-1 group-title="国内",四川卫视
@@ -1362,9 +1358,9 @@ http://183.237.231.139:9901/tsfile/live/1077_1.m3u8
 #EXTINF:-1 group-title="国内",四川卫视
 http://180.97.247.27/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel31/index.m3u8
 #EXTINF:-1 group-title="国内",贵州卫视
-http://119.54.2.125:58000/hls/41/index.m3u8
-#EXTINF:-1 group-title="国内",贵州卫视
 http://222.217.246.54:8282/tsfile/live/1042_1.m3u8
+#EXTINF:-1 group-title="国内",贵州卫视
+http://119.54.2.125:58000/hls/41/index.m3u8
 #EXTINF:-1 group-title="国内",贵州卫视
 http://36.33.240.48:9901/tsfile/live/0120_1.m3u8
 #EXTINF:-1 group-title="国内",贵州卫视
@@ -1446,9 +1442,9 @@ http://hodos.ddns.net:8181/tsfile/live/0119_1.m3u8
 #EXTINF:-1 group-title="国内",云南卫视
 http://218.15.229.90:9901/tsfile/live/0119_1.m3u8
 #EXTINF:-1 group-title="国内",西藏卫视
-http://119.54.2.125:58000/hls/56/index.m3u8
-#EXTINF:-1 group-title="国内",西藏卫视
 http://222.217.246.54:8282/tsfile/live/0111_1.m3u8
+#EXTINF:-1 group-title="国内",西藏卫视
+http://119.54.2.125:58000/hls/56/index.m3u8
 #EXTINF:-1 group-title="国内",西藏卫视
 http://36.33.240.48:9901/tsfile/live/0111_1.m3u8
 #EXTINF:-1 group-title="国内",西藏卫视
@@ -1540,9 +1536,9 @@ http://111.225.92.130:8800/hls/52/index.m3u8
 #EXTINF:-1 group-title="国内",陕西卫视
 http://49.235.110.121:9090/daili/小果.php?id=sxws_4000&Cf.m3u8
 #EXTINF:-1 group-title="国内",甘肃卫视
-http://119.54.2.125:58000/hls/59/index.m3u8
-#EXTINF:-1 group-title="国内",甘肃卫视
 http://222.217.246.54:8282/tsfile/live/1046_1.m3u8
+#EXTINF:-1 group-title="国内",甘肃卫视
+http://119.54.2.125:58000/hls/59/index.m3u8
 #EXTINF:-1 group-title="国内",甘肃卫视
 http://36.33.240.48:9901/tsfile/live/0141_1.m3u8
 #EXTINF:-1 group-title="国内",甘肃卫视
@@ -1680,9 +1676,9 @@ http://111.9.172.131:9901/tsfile/live/0112_1.m3u8
 #EXTINF:-1 group-title="国内",宁夏卫视
 http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel69/index.m3u8
 #EXTINF:-1 group-title="国内",新疆卫视
-http://119.54.2.125:58000/hls/60/index.m3u8
-#EXTINF:-1 group-title="国内",新疆卫视
 http://222.217.246.54:8282/tsfile/live/0110_1.m3u8
+#EXTINF:-1 group-title="国内",新疆卫视
+http://119.54.2.125:58000/hls/60/index.m3u8
 #EXTINF:-1 group-title="国内",新疆卫视
 http://36.33.240.48:9901/tsfile/live/0110_1.m3u8
 #EXTINF:-1 group-title="国内",新疆卫视
