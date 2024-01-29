@@ -79,6 +79,15 @@ def getPrice():
         goldPrice_dict[key] = value
     return goldPrice_dict
 
+def testUrl(url):
+    start_time = time.time()
+    response = requests.get(url)
+    if response.status_code == 200:
+        end_time = time.time()
+        delay = end_time - start_time
+        if delay < 1:
+            return url
+
 if __name__ == '__main__':
     url = 'https://cn.bing.com'
     headers = {
@@ -120,8 +129,10 @@ if __name__ == '__main__':
                         url = item.get('link', '')
                         if url.endswith('m3u8'):
                             fw_m3u.write(f'#EXTINF:-1 group-title="国内",{tv.upper()}\n')
-                            fw_m3u.write(url + '\n')
-                            fw_txt.write(f'{tv.upper()},{url}\n')
+                            url = testUrl(url)
+                            if url:
+                                fw_m3u.write(url + '\n')
+                                fw_txt.write(f'{tv.upper()},{url}\n')
 
                 time.sleep(5)
             except Exception as e:
