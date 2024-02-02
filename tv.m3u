@@ -3,11 +3,8 @@
 http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV1
 #EXTINF:-1 group-title="国内",CCTV1
-#EXTINF:-1 group-title="国内",CCTV1
-http://120.7.86.37:808/hls/1/index.m3u8
-#EXTINF:-1 group-title="国内",CCTV1
-#EXTINF:-1 group-title="国内",CCTV1
 #EXTINF:-1 group-title="国内",CCTV2
+http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226195/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV2
 #EXTINF:-1 group-title="国内",CCTV2
 http://222.189.51.62:8888/newlive/live/hls/2/live.m3u8
@@ -34,10 +31,11 @@ http://222.189.51.62:8888/newlive/live/hls/4/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV4
 #EXTINF:-1 group-title="国内",CCTV4
 #EXTINF:-1 group-title="国内",CCTV5
+http://121.23.184.27:808/hls/5/index.m3u8
+#EXTINF:-1 group-title="国内",CCTV5
 #EXTINF:-1 group-title="国内",CCTV5
 http://222.189.51.62:8888/newlive/live/hls/5/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV5
-http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226395/1.m3u8
 #EXTINF:-1 group-title="国内",CCTV5
 http://1.24.190.98:10088/hls/5/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV5
@@ -46,8 +44,9 @@ http://61.182.33.218:8000/hls/5/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV5
 #EXTINF:-1 group-title="国内",CCTV6
 #EXTINF:-1 group-title="国内",CCTV6
+http://123.14.88.69:8888/hls/6/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV6
-http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226393/1.m3u8
+#EXTINF:-1 group-title="国内",CCTV6
 #EXTINF:-1 group-title="国内",CCTV6
 http://222.189.51.62:8888/newlive/live/hls/6/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV6
@@ -69,6 +68,8 @@ http://222.189.51.62:8888/newlive/live/hls/9/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV9
 #EXTINF:-1 group-title="国内",CCTV9
 #EXTINF:-1 group-title="国内",CCTV10
+http://121.23.184.27:808/hls/10/index.m3u8
+#EXTINF:-1 group-title="国内",CCTV10
 #EXTINF:-1 group-title="国内",CCTV10
 #EXTINF:-1 group-title="国内",CCTV11
 #EXTINF:-1 group-title="国内",CCTV11
@@ -84,9 +85,12 @@ http://222.189.51.62:8888/newlive/live/hls/12/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV13
 #EXTINF:-1 group-title="国内",CCTV13
 #EXTINF:-1 group-title="国内",CCTV13
+#EXTINF:-1 group-title="国内",CCTV13
 http://222.189.51.62:8888/newlive/live/hls/13/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV13
 #EXTINF:-1 group-title="国内",CCTV13
+#EXTINF:-1 group-title="国内",CCTV14
+http://121.23.184.27:808/hls/14/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV14
 http://222.189.51.62:8888/newlive/live/hls/14/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV14
@@ -97,18 +101,17 @@ http://222.189.51.62:8888/newlive/live/hls/14/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV16
 http://222.189.51.62:8888/newlive/live/hls/16/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV16
-http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226921/1.m3u8
 #EXTINF:-1 group-title="国内",CCTV16
-http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8
-#EXTINF:-1 group-title="国内",CCTV16
+#EXTINF:-1 group-title="国内",北京卫视
+http://171.14.92.220:808/hls/64/index.m3u8
 #EXTINF:-1 group-title="国内",北京卫视
 http://183.185.136.159:9999/tsfile/live/0122_1.m3u8
 #EXTINF:-1 group-title="国内",北京卫视
 #EXTINF:-1 group-title="国内",天津卫视
+#EXTINF:-1 group-title="国内",天津卫视
 http://222.189.51.62:8888/newlive/live/hls/42/live.m3u8
 #EXTINF:-1 group-title="国内",天津卫视
 http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/36/live.m3u8
-#EXTINF:-1 group-title="国内",天津卫视
 #EXTINF:-1 group-title="国内",天津卫视
 #EXTINF:-1 group-title="国内",天津卫视
 #EXTINF:-1 group-title="国内",天津卫视
@@ -125,11 +128,7 @@ http://1.24.190.98:10088/hls/31/index.m3u8
 #EXTINF:-1 group-title="国内",内蒙古卫视
 #EXTINF:-1 group-title="国内",内蒙古卫视
 #EXTINF:-1 group-title="国内",辽宁卫视
-http://222.189.51.62:8888/newlive/live/hls/43/live.m3u8
-#EXTINF:-1 group-title="国内",辽宁卫视
-http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/26/live.m3u8
-#EXTINF:-1 group-title="国内",辽宁卫视
-#EXTINF:-1 group-title="国内",辽宁卫视
+#EXTINF:-1 group-title="国内",吉林卫视
 #EXTINF:-1 group-title="国内",吉林卫视
 http://222.189.51.62:8888/newlive/live/hls/35/live.m3u8
 #EXTINF:-1 group-title="国内",吉林卫视
@@ -137,7 +136,7 @@ http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/46/live.m3u8
 #EXTINF:-1 group-title="国内",吉林卫视
 #EXTINF:-1 group-title="国内",吉林卫视
 #EXTINF:-1 group-title="国内",吉林卫视
-#EXTINF:-1 group-title="国内",吉林卫视
+#EXTINF:-1 group-title="国内",黑龙江卫视
 #EXTINF:-1 group-title="国内",黑龙江卫视
 http://222.189.51.62:8888/newlive/live/hls/48/live.m3u8
 #EXTINF:-1 group-title="国内",黑龙江卫视
@@ -151,13 +150,12 @@ http://183.134.3.22:8888/newlive/live/hls/19/live.m3u8
 #EXTINF:-1 group-title="国内",上海卫视
 #EXTINF:-1 group-title="国内",江苏卫视
 #EXTINF:-1 group-title="国内",江苏卫视
+http://121.60.106.30:8888/tsfile/live/0127_1.m3u8
+#EXTINF:-1 group-title="国内",江苏卫视
 http://222.189.51.62:8888/newlive/live/hls/22/live.m3u8
 #EXTINF:-1 group-title="国内",江苏卫视
 http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/20/live.m3u8
 #EXTINF:-1 group-title="国内",江苏卫视
-#EXTINF:-1 group-title="国内",江苏卫视
-#EXTINF:-1 group-title="国内",浙江卫视
-http://183.134.3.22:8888/newlive/live/hls/23/live.m3u8
 #EXTINF:-1 group-title="国内",浙江卫视
 #EXTINF:-1 group-title="国内",安徽卫视
 http://222.189.51.62:8888/newlive/live/hls/25/live.m3u8
@@ -168,21 +166,18 @@ http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/25/live.m3u8
 #EXTINF:-1 group-title="国内",江西卫视
 http://222.189.51.62:8888/newlive/live/hls/45/live.m3u8
 #EXTINF:-1 group-title="国内",江西卫视
-http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/47/live.m3u8
 #EXTINF:-1 group-title="国内",江西卫视
 #EXTINF:-1 group-title="国内",江西卫视
+#EXTINF:-1 group-title="国内",山东卫视
 #EXTINF:-1 group-title="国内",山东卫视
 #EXTINF:-1 group-title="国内",山东卫视
 http://222.189.51.62:8888/newlive/live/hls/30/live.m3u8
 #EXTINF:-1 group-title="国内",山东卫视
-http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/34/live.m3u8
-#EXTINF:-1 group-title="国内",山东卫视
 #EXTINF:-1 group-title="国内",山东卫视
 #EXTINF:-1 group-title="国内",河南卫视
-http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/29/live.m3u8
+#EXTINF:-1 group-title="国内",河南卫视
 #EXTINF:-1 group-title="国内",河南卫视
 http://222.189.51.62:8888/newlive/live/hls/33/live.m3u8
-#EXTINF:-1 group-title="国内",河南卫视
 #EXTINF:-1 group-title="国内",河南卫视
 http://221.2.146.228:8888/newlive/live/hls/37/live.m3u8
 #EXTINF:-1 group-title="国内",河南卫视
@@ -194,10 +189,13 @@ http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/31/live.m3u8
 http://58.19.38.233:8888/newlive/live/hls/34/live.m3u8
 #EXTINF:-1 group-title="国内",湖北卫视
 #EXTINF:-1 group-title="国内",湖北卫视
+http://61.182.33.218:8000/hls/28/index.m3u8
 #EXTINF:-1 group-title="国内",湖北卫视
 #EXTINF:-1 group-title="国内",湖南卫视
 #EXTINF:-1 group-title="国内",广东卫视
 http://1.24.190.98:10088/hls/79/index.m3u8
+#EXTINF:-1 group-title="国内",广东卫视
+http://116.21.120.40:4433/tsfile/live/0125_1.m3u8
 #EXTINF:-1 group-title="国内",广东卫视
 http://222.189.51.62:8888/newlive/live/hls/21/live.m3u8
 #EXTINF:-1 group-title="国内",广东卫视
@@ -211,25 +209,22 @@ http://1.30.18.218:20080/hls/59/index.m3u8
 #EXTINF:-1 group-title="国内",广西卫视
 http://222.189.51.62:8888/newlive/live/hls/26/live.m3u8
 #EXTINF:-1 group-title="国内",广西卫视
-http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/43/live.m3u8
-#EXTINF:-1 group-title="国内",广西卫视
-http://110.72.83.165:808/hls/9/index.m3u8
 #EXTINF:-1 group-title="国内",广西卫视
 #EXTINF:-1 group-title="国内",海南卫视
 http://222.189.51.62:8888/newlive/live/hls/44/live.m3u8
 #EXTINF:-1 group-title="国内",海南卫视
-http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/49/live.m3u8
 #EXTINF:-1 group-title="国内",海南卫视
 #EXTINF:-1 group-title="国内",重庆卫视
 http://222.189.51.62:8888/newlive/live/hls/31/live.m3u8
 #EXTINF:-1 group-title="国内",重庆卫视
-http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/18/live.m3u8
 #EXTINF:-1 group-title="国内",重庆卫视
 #EXTINF:-1 group-title="国内",四川卫视
 http://222.189.51.62:8888/newlive/live/hls/32/live.m3u8
 #EXTINF:-1 group-title="国内",四川卫视
 http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/45/live.m3u8
 #EXTINF:-1 group-title="国内",四川卫视
+#EXTINF:-1 group-title="国内",贵州卫视
+http://113.140.86.162:8001/hls/50/index.m3u8
 #EXTINF:-1 group-title="国内",贵州卫视
 http://222.189.51.62:8888/newlive/live/hls/29/live.m3u8
 #EXTINF:-1 group-title="国内",贵州卫视
@@ -240,7 +235,6 @@ http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/30/live.m3u8
 #EXTINF:-1 group-title="国内",云南卫视
 http://222.189.51.62:8888/newlive/live/hls/27/live.m3u8
 #EXTINF:-1 group-title="国内",云南卫视
-http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/24/live.m3u8
 #EXTINF:-1 group-title="国内",云南卫视
 http://117.174.81.63:50080/newlive/live/hls/41/live.m3u8
 #EXTINF:-1 group-title="国内",云南卫视
@@ -248,7 +242,6 @@ http://117.174.81.63:50080/newlive/live/hls/41/live.m3u8
 #EXTINF:-1 group-title="国内",西藏卫视
 http://222.189.51.62:8888/newlive/live/hls/37/live.m3u8
 #EXTINF:-1 group-title="国内",西藏卫视
-http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/37/live.m3u8
 #EXTINF:-1 group-title="国内",西藏卫视
 #EXTINF:-1 group-title="国内",西藏卫视
 #EXTINF:-1 group-title="国内",陕西卫视
@@ -257,6 +250,7 @@ http://222.189.51.62:8888/newlive/live/hls/41/live.m3u8
 http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/35/live.m3u8
 #EXTINF:-1 group-title="国内",陕西卫视
 #EXTINF:-1 group-title="国内",陕西卫视
+http://lhq-cctv.8866.org:18181/tsfile/live/0136_1.m3u8
 #EXTINF:-1 group-title="国内",陕西卫视
 #EXTINF:-1 group-title="国内",甘肃卫视
 http://222.189.51.62:8888/newlive/live/hls/36/live.m3u8
@@ -264,6 +258,7 @@ http://222.189.51.62:8888/newlive/live/hls/36/live.m3u8
 http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/38/live.m3u8
 #EXTINF:-1 group-title="国内",甘肃卫视
 #EXTINF:-1 group-title="国内",甘肃卫视
+http://58.19.38.233:8888/newlive/live/hls/36/live.m3u8
 #EXTINF:-1 group-title="国内",甘肃卫视
 #EXTINF:-1 group-title="国内",青海卫视
 http://222.189.51.62:8888/newlive/live/hls/39/live.m3u8
@@ -275,7 +270,6 @@ http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/42/live.m3u8
 #EXTINF:-1 group-title="国内",宁夏卫视
 http://222.189.51.62:8888/newlive/live/hls/40/live.m3u8
 #EXTINF:-1 group-title="国内",宁夏卫视
-http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/32/live.m3u8
 #EXTINF:-1 group-title="国内",宁夏卫视
 http://221.2.146.228:8888/newlive/live/hls/44/live.m3u8
 #EXTINF:-1 group-title="国内",宁夏卫视
@@ -283,7 +277,6 @@ http://221.2.146.228:8888/newlive/live/hls/44/live.m3u8
 #EXTINF:-1 group-title="国内",新疆卫视
 http://222.189.51.62:8888/newlive/live/hls/38/live.m3u8
 #EXTINF:-1 group-title="国内",新疆卫视
-http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/33/live.m3u8
 #EXTINF:-1 group-title="国内",新疆卫视
 #EXTINF:-1 group-title="国内",新疆卫视
 #EXTINF:-1 group-title="国内",新疆卫视
