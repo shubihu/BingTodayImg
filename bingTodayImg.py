@@ -85,7 +85,7 @@ def testUrl(url):
     if response.status_code == 200:
         end_time = time.time()
         delay = end_time - start_time
-        if delay < 1:
+        if delay < 6:
             return url
 
 if __name__ == '__main__':
