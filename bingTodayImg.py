@@ -5,6 +5,7 @@ from datetime import datetime
 from urllib.parse import urljoin
 import pandas as pd
 import requests
+from bs4 import BeautifulSoup
 
 class WechatMessagePush:
     def __init__(self, appid, appsecret, temple_id):
@@ -119,20 +120,34 @@ if __name__ == '__main__':
     
     with open('tvName.txt') as f:
         for tv in f:
-            tv = tv.strip().lower()
+            tv = tv.strip().upper()
             try:
-                res = requests.get(f'https://api.pearktrue.cn/api/tv/search.php?name={tv}&page=1')
-                data = res.json().get('data', [])
+                # res = requests.get(f'https://api.pearktrue.cn/api/tv/search.php?name={tv}&page=1')
+                res = requests.get(f'http://tonkiang.us/?s={tv}'
+                # data = res.json().get('data', [])
+                soup = BeautifulSoup(res.text, 'html.parser')
+                channel_divs = soup.find_all('div', class_='channel')
+                channel_names = [c.get_text().strip() for c in channel_divs]
+                channel_names = [c for c in channel_names if c.upper()==tv]
+                num = min(5, len(channel_names))
+                tables = soup.find_all('table')
+
+                for t in tables[:num]:
+                    fw_m3u.write(f'#EXTINF:-1 group-title="国内",{tv}\n')
+                    url = t.find_all('td')[1].get_text().strip()
+                    fw_m3u.write(url + '\n')
+                    fw_txt.write(f'{tv},{url}\n')
+                    
                 
-                for item in data:
-                    if item['videoname'].strip().lower() == tv:
-                        url = item.get('link', '')
-                        if url.endswith('m3u8'):
-                            fw_m3u.write(f'#EXTINF:-1 group-title="国内",{tv.upper()}\n')
-                            url = testUrl(url)
-                            if url:
-                                fw_m3u.write(url + '\n')
-                                fw_txt.write(f'{tv.upper()},{url}\n')
+                # for item in data:
+                #     if item['videoname'].strip().lower() == tv:
+                #         url = item.get('link', '')
+                #         if url.endswith('m3u8'):
+                #             fw_m3u.write(f'#EXTINF:-1 group-title="国内",{tv.upper()}\n')
+                #             url = testUrl(url)
+                #             if url:
+                #                 fw_m3u.write(url + '\n')
+                #                 fw_txt.write(f'{tv.upper()},{url}\n')
 
                 time.sleep(5)
             except Exception as e:
