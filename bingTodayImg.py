@@ -123,7 +123,7 @@ if __name__ == '__main__':
             tv = tv.strip().upper()
             try:
                 # res = requests.get(f'https://api.pearktrue.cn/api/tv/search.php?name={tv}&page=1')
-                res = requests.get(f'http://tonkiang.us/?s={tv}'
+                res = requests.get(f'http://tonkiang.us/?s={tv}')
                 # data = res.json().get('data', [])
                 soup = BeautifulSoup(res.text, 'html.parser')
                 channel_divs = soup.find_all('div', class_='channel')
