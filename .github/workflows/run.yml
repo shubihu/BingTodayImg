@@ -60,7 +60,7 @@ jobs:
 
         cd ..
         cd tv
-        git config user.email "jrwjb@sina.com"
-        git config user.name "yahaha3195"
+        # git config user.email "jrwjb@sina.com"
+        # git config user.name "yahaha3195"
         git add tv.m3u tv.txt
         git diff-index --quiet HEAD || (git commit -m "update" && git push https://oauth2:${GITEE_TOKEN}@gitee.com/yahaha3195/tv.git)
