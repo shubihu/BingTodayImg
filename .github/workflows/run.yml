@@ -3,13 +3,13 @@
 
 name: Bing Today Img
 
-# on:
-#   schedule:
-#     - cron: '0 21 * * *'    # 国际时间 21 点，估计北京时间 5点
-
 on:
-    push:
-        branches: [ main ]
+  schedule:
+    - cron: '0 21 * * *'    # 国际时间 21 点，估计北京时间 5点
+
+# on:
+#     push:
+#         branches: [ main ]
 
 
 jobs:
@@ -33,9 +33,9 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    # - name: run
-    #   run: |
-    #     python bingTodayImg.py
+    - name: run
+      run: |
+        python bingTodayImg.py
         
     - name: commit
       run: | 
