@@ -33,9 +33,9 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    - name: run
-      run: |
-        python bingTodayImg.py
+    # - name: run
+    #   run: |
+    #     python bingTodayImg.py
         
     - name: commit
       run: | 
