@@ -69,10 +69,11 @@ def getPrice():
         data = pd.read_html(res.text)[0]
     data.columns = data.iloc[0,:]
     data = data.iloc[1:,:]
-
     current_date = datetime.now().strftime('%Y-%m-%d')
     data = data[(data['日期'] == current_date) & (data['产品'] == '黄金价格')]
     goldPrice = [f'{i}:{j}' for i,j in zip(data['品牌'], data['价格'])][:6]
+    with open('goldPrice.txt', 'a+') as fw:
+        fw.write(current_date + '\t' + '\t'.join(goldPrice) + '\n')
     goldPrice_dict = {}
     for i, j in enumerate(goldPrice, start = 1):
         key = f'price{i}'
