@@ -41,7 +41,7 @@ jobs:
       run: | 
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git add today.png tv.m3u tv.txt
+        git add today.png tv.m3u tv.txt goldPrice.txt
         git diff-index --quiet HEAD || (git commit -m "update" && git push)
 
         git clone https://${ACCESS_TOKEN}@github.com/shubihu/shubihu.github.io.git repo
