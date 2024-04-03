@@ -4,25 +4,25 @@ http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/inde
 #EXTINF:-1 group-title="国内",CCTV1
 https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
 #EXTINF:-1 group-title="国内",CCTV1
+http://121.235.191.182:12999/hls/1/index.m3u8
+#EXTINF:-1 group-title="国内",CCTV1
 http://219.147.3.106:4455/newlive/live/hls/1/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV1
 http://111.75.151.236:50085/newlive/live/hls/1/live.m3u8
-#EXTINF:-1 group-title="国内",CCTV1
-http://113.133.232.82:8008/rtp/239.112.205.59:5140
+#EXTINF:-1 group-title="国内",CCTV2
+https://node1.olelive.com:6443/live/CCTV2HD/hls.m3u8
 #EXTINF:-1 group-title="国内",CCTV2
 http://219.147.3.106:4455/newlive/live/hls/2/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV2
 http://111.75.151.236:50085/newlive/live/hls/2/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV2
-https://node1.olelive.com:6443/live/CCTV2HD/hls.m3u8
-#EXTINF:-1 group-title="国内",CCTV2
 https://alicdnhd-hz-hunan-live.5gtv.com.cn/live/XP_CCTV2HD.m3u8
 #EXTINF:-1 group-title="国内",CCTV2
 https://yang-1989.eu.org/live/cctv2
 #EXTINF:-1 group-title="国内",CCTV3
-http://219.147.3.106:4455/newlive/live/hls/3/live.m3u8
-#EXTINF:-1 group-title="国内",CCTV3
 http://140.249.247.163/1142f717c2e0326d526ab914ec68dd30.v.smtcdns.net/t-fjnetv51.live.bestvcdn.com.cn/live/program/live/cctv38m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="国内",CCTV3
+http://219.147.3.106:4455/newlive/live/hls/3/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV3
 http://125.210.152.19:9123/live/hzgq-cctv3gq-h264.m3u8
 #EXTINF:-1 group-title="国内",CCTV3
@@ -50,13 +50,13 @@ http://49.71.78.122/hlslive-tx-cdn.ysp.cctv.cn/ysp/2022576403.m3u8
 #EXTINF:-1 group-title="国内",CCTV5
 https://alicdnhd-hz-hunan-live.5gtv.com.cn/live/XP_CCTV5HD.m3u8
 #EXTINF:-1 group-title="国内",CCTV6
-http://219.147.3.106:4455/newlive/live/hls/7/live.m3u8
+https://node1.olelive.com:6443/live/CCTV6HD/hls.m3u8
 #EXTINF:-1 group-title="国内",CCTV6
 http://140.249.247.163/1142f717c2e0326d526ab914ec68dd30.v.smtcdns.net/t-fjnetv51.live.bestvcdn.com.cn/live/program/live/cctv6hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="国内",CCTV6
-http://111.75.151.236:50085/newlive/live/hls/6/live.m3u8
+http://219.147.3.106:4455/newlive/live/hls/7/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV6
-https://node1.olelive.com:6443/live/CCTV6HD/hls.m3u8
+http://111.75.151.236:50085/newlive/live/hls/6/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV6
 https://iptv.luas.edu.cn/liverespath/f2f39ee2105c85c32df375728a51b5d89d3afab4/113ed89f48-0-0-85216e55861329ec31ba1437a2ff37c9/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV7
@@ -70,9 +70,9 @@ http://140.249.247.163/1142f717c2e0326d526ab914ec68dd30.v.smtcdns.net/t-fjnetv51
 #EXTINF:-1 group-title="国内",CCTV7
 https://alicdnhd-hz-hunan-live.5gtv.com.cn/live/XP_CCTV7HD.m3u8
 #EXTINF:-1 group-title="国内",CCTV8
-http://219.147.3.106:4455/newlive/live/hls/9/live.m3u8
-#EXTINF:-1 group-title="国内",CCTV8
 https://node1.olelive.com:6443/live/CCTV8HD/hls.m3u8
+#EXTINF:-1 group-title="国内",CCTV8
+http://219.147.3.106:4455/newlive/live/hls/9/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV8
 http://111.75.151.236:50085/newlive/live/hls/8/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV8
@@ -124,11 +124,11 @@ http://live.chunfei.top/live02/cctv.m3u8?channel=cctvnews
 #EXTINF:-1 group-title="国内",CCTV13
 https://node1.olelive.com:6443/live/CCTV13HD/hls.m3u8
 #EXTINF:-1 group-title="国内",CCTV13
-http://219.147.3.106:4455/newlive/live/hls/14/live.m3u8
+http://14.19.199.43:8089/hls/32/index.m3u8
 #EXTINF:-1 group-title="国内",CCTV13
 http://111.75.151.236:50085/newlive/live/hls/13/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV13
-http://zteres.sn.chinamobile.com:6060/000000001000/5000000011000031108/1.m3u8?channel-id=bestzb&Contentid=5000000011000031108&livemode=1&stbId=3
+http://219.147.3.106:4455/newlive/live/hls/14/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV14
 http://219.147.3.106:4455/newlive/live/hls/15/live.m3u8
 #EXTINF:-1 group-title="国内",CCTV14
@@ -160,11 +160,11 @@ http://49.71.78.122/hlslive-tx-cdn.ysp.cctv.cn/ysp/2022575103.m3u8
 #EXTINF:-1 group-title="国内",CCTV16
 https://alicdnhd-hz-hunan-live.5gtv.com.cn/live/XP_CCTV16HD.m3u8
 #EXTINF:-1 group-title="国内",北京卫视
+http://140.249.247.163/1142f717c2e0326d526ab914ec68dd30.v.smtcdns.net/t-fjnetv51.live.bestvcdn.com.cn/live/program/live/bjwshd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="国内",北京卫视
 http://219.147.3.106:4455/newlive/live/hls/20/live.m3u8
 #EXTINF:-1 group-title="国内",北京卫视
 http://111.75.151.236:50085/newlive/live/hls/24/live.m3u8
-#EXTINF:-1 group-title="国内",北京卫视
-http://140.249.247.163/1142f717c2e0326d526ab914ec68dd30.v.smtcdns.net/t-fjnetv51.live.bestvcdn.com.cn/live/program/live/bjwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="国内",北京卫视
 http://61.182.33.218:8000/hls/19/index.m3u8
 #EXTINF:-1 group-title="国内",北京卫视
@@ -200,15 +200,15 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226392/index.m3u8
 #EXTINF:-1 group-title="国内",山西卫视
 http://80ec27bff7f9ae80b961481da488e302.livehwc3.cn/liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d04ce01474da4193c8863ea281ec4759
 #EXTINF:-1 group-title="国内",内蒙古卫视
+http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001035/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+#EXTINF:-1 group-title="国内",内蒙古卫视
+http://[2409:8087:1a0b:df::4017]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225634/index.m3u8
+#EXTINF:-1 group-title="国内",内蒙古卫视
 http://219.147.3.106:4455/newlive/live/hls/41/live.m3u8
 #EXTINF:-1 group-title="国内",内蒙古卫视
 http://111.75.151.236:50085/newlive/live/hls/48/live.m3u8
 #EXTINF:-1 group-title="国内",内蒙古卫视
-http://[2409:8087:1a0b:df::4017]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225634/index.m3u8
-#EXTINF:-1 group-title="国内",内蒙古卫视
 http://119.54.12.137:9999/hls/53/index.m3u8
-#EXTINF:-1 group-title="国内",内蒙古卫视
-https://alicdnhd-hz-hunan-live.5gtv.com.cn/live/XP_nmgws.m3u8
 #EXTINF:-1 group-title="国内",辽宁卫视
 http://219.147.3.106:4455/newlive/live/hls/27/live.m3u8
 #EXTINF:-1 group-title="国内",辽宁卫视
@@ -260,9 +260,9 @@ http://49.71.78.122/hlslive-tx-cdn.ysp.cctv.cn/ysp/2000295603.m3u8
 #EXTINF:-1 group-title="国内",江苏卫视
 http://171.8.245.48:808/hls/30/index.m3u8
 #EXTINF:-1 group-title="国内",浙江卫视
-http://219.147.3.106:4455/newlive/live/hls/17/live.m3u8
-#EXTINF:-1 group-title="国内",浙江卫视
 http://140.249.247.163/1142f717c2e0326d526ab914ec68dd30.v.smtcdns.net/t-fjnetv51.live.bestvcdn.com.cn/live/program/live/zjwshd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="国内",浙江卫视
+http://219.147.3.106:4455/newlive/live/hls/17/live.m3u8
 #EXTINF:-1 group-title="国内",浙江卫视
 http://111.75.151.236:50085/newlive/live/hls/21/live.m3u8
 #EXTINF:-1 group-title="国内",浙江卫视
@@ -330,6 +330,8 @@ http://123.10.76.176:808/hls/33/index.m3u8
 #EXTINF:-1 group-title="国内",湖南卫视
 http://219.147.3.106:4455/newlive/live/hls/18/live.m3u8
 #EXTINF:-1 group-title="国内",广东卫视
+http://140.249.247.163/1142f717c2e0326d526ab914ec68dd30.v.smtcdns.net/t-fjnetv51.live.bestvcdn.com.cn/live/program/live/gdwshd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="国内",广东卫视
 http://219.147.3.106:4455/newlive/live/hls/26/live.m3u8
 #EXTINF:-1 group-title="国内",广东卫视
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226248/index.m3u8
@@ -337,8 +339,8 @@ http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/32212
 http://111.75.151.236:50085/newlive/live/hls/25/live.m3u8
 #EXTINF:-1 group-title="国内",广东卫视
 http://[2409:8087:7001:20:3::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225803/index.m3u8
-#EXTINF:-1 group-title="国内",广东卫视
-http://php.jdshipin.com:8880/chudian.php?id=gdws
+#EXTINF:-1 group-title="国内",广西卫视
+http://113.133.233.177:8011/rtp/239.112.205.51:5140
 #EXTINF:-1 group-title="国内",广西卫视
 http://zteres.sn.chinamobile.com:6060/000000001000/5000000011000031118/1.m3u8?channel-id=bestzb&Contentid=5000000011000031118&livemode=1&stbId=3
 #EXTINF:-1 group-title="国内",广西卫视
@@ -347,8 +349,6 @@ http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001054/index.m3
 http://113.12.72.152:9901/tsfile/live/1024_1.m3u8
 #EXTINF:-1 group-title="国内",广西卫视
 http://219.147.3.106:4455/newlive/live/hls/39/live.m3u8
-#EXTINF:-1 group-title="国内",广西卫视
-http://111.75.151.236:50085/newlive/live/hls/37/live.m3u8
 #EXTINF:-1 group-title="国内",海南卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
 #EXTINF:-1 group-title="国内",海南卫视
@@ -400,6 +400,8 @@ http://fxgm.fxjf.work:19901/tsfile/live/0119_1.m3u8
 #EXTINF:-1 group-title="国内",云南卫视
 https://alicdnhd-hz-hunan-live.5gtv.com.cn/live/XP_ynws.m3u8
 #EXTINF:-1 group-title="国内",西藏卫视
+http://220.182.45.198:20088/tsfile/live/0111_1.m3u8
+#EXTINF:-1 group-title="国内",西藏卫视
 http://[2409:8087:7001:20:2::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226212/index.m3u8
 #EXTINF:-1 group-title="国内",西藏卫视
 http://111.75.151.236:50085/newlive/live/hls/36/live.m3u8
@@ -407,8 +409,6 @@ http://111.75.151.236:50085/newlive/live/hls/36/live.m3u8
 http://219.147.3.106:4455/newlive/live/hls/46/live.m3u8
 #EXTINF:-1 group-title="国内",西藏卫视
 https://alicdnhd-hz-hunan-live.5gtv.com.cn/live/XP_xzws.m3u8
-#EXTINF:-1 group-title="国内",西藏卫视
-http://113.12.72.152:9901/tsfile/live/1035_1.m3u8
 #EXTINF:-1 group-title="国内",陕西卫视
 http://219.147.3.106:4455/newlive/live/hls/30/live.m3u8
 #EXTINF:-1 group-title="国内",陕西卫视
