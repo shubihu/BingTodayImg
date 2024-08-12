@@ -90,6 +90,29 @@ def testUrl(url):
         if delay < 6:
             return url
 
+def sign91():
+    # 请求地址
+    time.sleep(3)
+    url = "https://91huajian.cn/huajian/integral/addIntegralLog"
+    # 定义请求头
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+        'Accept-Language': 'zh-CN,zh;q=0.9',
+        'Accept-Encoding': 'gzip, deflate, br, zstd',
+    #     'Cookie': cookie_header,
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Impyd2piQHNpbmEuY29tIiwicm9sZXMiOlsiVXNlciJdLCJpYXQiOjE3MDkwODg1NDIsImV4cCI6MTc0NTA4ODU0Mn0.iZlyF5ps_d_C-AGs9NXlop2PayGhKD_Mi4gCeI6VCaE"
+    }
+        
+    # 请求载荷
+    payload = {"integralAddType": "1"}
+    # 发送 POST 请求
+    response = requests.post(url, json=payload, headers=headers)
+    
+    # 打印响应状态码和内容
+    print("Status Code:", response.status_code)
+    print("Response Body:", response.text)
+
 if __name__ == '__main__':
     url = 'https://cn.bing.com'
     headers = {
@@ -108,6 +131,7 @@ if __name__ == '__main__':
         with open('today.png', 'wb') as f:
             f.write(r.content)
 
+    sign91()
     appid = "wx43bc06f0eaedf902"
     screct = "226d73a58fe21c0ab564e1836bb02599"
     template_id = 'K0KwLFPLXYlEaCb_VVm-6ZqbaI3uDtNuH3ifpcVVMC0'
