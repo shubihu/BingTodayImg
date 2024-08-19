@@ -112,6 +112,7 @@ def sign91():
     # 打印响应状态码和内容
     print("Status Code:", response.status_code)
     print("Response Body:", response.text)
+    return response.text
 
 if __name__ == '__main__':
     url = 'https://cn.bing.com'
@@ -131,11 +132,12 @@ if __name__ == '__main__':
         with open('today.png', 'wb') as f:
             f.write(r.content)
 
-    sign91()
+    sign_status = sign91()
     appid = "wx43bc06f0eaedf902"
     screct = "226d73a58fe21c0ab564e1836bb02599"
     template_id = 'K0KwLFPLXYlEaCb_VVm-6ZqbaI3uDtNuH3ifpcVVMC0'
     goldPrice = getPrice()
+    goldPrice['sign'] = {'value': sign_status, 'color':"#173177"}
     WechatMessagePush(appid, screct, template_id).send_wechat_temple_msg(content=goldPrice)
 
     fw_m3u = open('tv.m3u', 'w')
