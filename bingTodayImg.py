@@ -111,8 +111,8 @@ def sign91():
     
     # 打印响应状态码和内容
     print("Status Code:", response.status_code)
-    print("Response Body:", response.text)
-    return response.text
+    print("Response Body:", response.json()['data'])
+    return response.json()['data']['message']
 
 if __name__ == '__main__':
     url = 'https://cn.bing.com'
