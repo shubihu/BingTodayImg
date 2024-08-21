@@ -139,6 +139,9 @@ if __name__ == '__main__':
     goldPrice = getPrice()
     goldPrice['sign'] = {'value': sign_status, 'color':"#173177"}
     WechatMessagePush(appid, screct, template_id).send_wechat_temple_msg(content=goldPrice)
+    sign_dict = {}
+    sign_dict['sign'] = {'value': sign_status, 'color':"#173177"}
+    WechatMessagePush(appid, screct, 'mjZKeY3hQAc7H7s1LZZyl8AFNWVBhVJRQhPbTdUnQps').send_wechat_temple_msg(content=sign_dict)
 
     fw_m3u = open('tv.m3u', 'w')
     fw_txt = open('tv.txt', 'w')
