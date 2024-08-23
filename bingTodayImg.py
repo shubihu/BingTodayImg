@@ -114,6 +114,29 @@ def sign91():
     print("Response Body:", response.json()['data'])
     return response.json()['data']['message']
 
+def get_work():
+    time.sleep(3)
+    url = 'https://sz.ustc.edu.cn/rcdw_rczp_list/2299-1.html'
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Connection': 'keep-alive',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    }
+
+    res = requests.get(url, headers=headers)
+    if res.status_code == 200:
+        soup = BeautifulSoup(res.text, 'html.parser')
+    else:
+        soup = None
+
+    if soup:
+        ul = soup.find(id='article_list_ul')
+        lis = ul.find_all('li')[:10]
+        works = ';'.join([f"{li.find('h4').text.strip()}-{li.find('span').text.strip()}"])
+        return works
+
 if __name__ == '__main__':
     url = 'https://cn.bing.com'
     headers = {
@@ -141,7 +164,9 @@ if __name__ == '__main__':
     WechatMessagePush(appid, screct, template_id).send_wechat_temple_msg(content=goldPrice)
     sign_dict = {}
     sign_dict['sign'] = {'value': sign_status, 'color':"#173177"}
-    WechatMessagePush(appid, screct, 'mjZKeY3hQAc7H7s1LZZyl8AFNWVBhVJRQhPbTdUnQps').send_wechat_temple_msg(content=sign_dict)
+    works = get_work()
+    sign_dict['work'] = {'value': works, 'color':"#173177"}
+    WechatMessagePush(appid, screct, 'engwabNQpEqU0MCMpEmFQMPs9nCBcA9n-ODdsvMqjdQ').send_wechat_temple_msg(content=sign_dict)
 
     fw_m3u = open('tv.m3u', 'w')
     fw_txt = open('tv.txt', 'w')
