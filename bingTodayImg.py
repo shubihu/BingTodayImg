@@ -126,16 +126,19 @@ def get_work():
     }
 
     res = requests.get(url, headers=headers)
-    if res.status_code == 200:
-        soup = BeautifulSoup(res.text, 'html.parser')
-    else:
-        soup = None
-
-    if soup:
-        ul = soup.find(id='article_list_ul')
-        lis = ul.find_all('li')[:10]
-        works = ';'.join([f"{li.find('h4').text.strip()}-{li.find('span').text.strip()}"])
-        return works
+    if res.status_code != 200:
+        return ''
+        
+    soup = BeautifulSoup(res.text, 'html.parser')
+    ul = soup.find('ul', id='article_list_ul')
+    if not ul:
+        return ''
+        
+    works = ';'.join(
+        f"{li.find('h4').text.strip()}-{li.find('span').text.strip()}"
+        for li in ul.find_all('li')[:10]
+    )
+    return works if works else ''
 
 if __name__ == '__main__':
     url = 'https://cn.bing.com'
