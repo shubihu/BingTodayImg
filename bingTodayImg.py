@@ -128,6 +128,9 @@ def get_work():
     res = requests.get(url, headers=headers)
     if res.status_code != 200:
         return str(res.status_code)
+
+    with open('test.html', 'w') as fw:
+        fw.write(res.text)
         
     soup = BeautifulSoup(res.text, 'html.parser')
     ul = soup.find('ul', id='article_list_ul')
