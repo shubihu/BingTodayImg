@@ -117,21 +117,10 @@ def sign91():
 def get_work():
     time.sleep(3)
     url = 'https://sz.ustc.edu.cn/rcdw_rczp_list/2299-1.html'
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Connection': 'keep-alive',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
-    }
-
-    res = requests.get(url, headers=headers)
+    res = requests.get(url)
     if res.status_code != 200:
         print(res.status_code)
         return str(res.status_code)
-
-    with open('test.html', 'w') as fw:
-        fw.write(res.text)
         
     soup = BeautifulSoup(res.text, 'html.parser')
     ul = soup.find('ul', id='article_list_ul')
