@@ -127,6 +127,7 @@ def get_work():
 
     res = requests.get(url, headers=headers)
     if res.status_code != 200:
+        print(res.status_code)
         return str(res.status_code)
 
     with open('test.html', 'w') as fw:
