@@ -46,7 +46,6 @@ jobs:
 
         git clone https://${ACCESS_TOKEN}@github.com/shubihu/shubihu.github.io.git repo
         cp today.png repo/
-        cp test.html repo/
 
         git clone https://${GITEE_TOKEN}@gitee.com/yahaha3195/tv.git
         cp tv.m3u tv/
@@ -56,7 +55,7 @@ jobs:
         cd repo
         git config user.email "jrwjb@sina.com"
         git config user.name "shubihu"
-        git add today.png test.html
+        git add today.png 
         git diff-index --quiet HEAD || (git commit -m "update" && git push)
 
         cd ..
