@@ -126,13 +126,13 @@ def get_work():
     ul = soup.find('ul', id='article_list_ul')
     if not ul:
         return ''
-        
-    works = ';'.join(
-        f"{li.find('h4').text.strip()}-{li.find('span').text.strip()}"
-        for li in ul.find_all('li')[:10]
-    )
-    return works if works else ''
 
+    today = datetime.now().strftime('%Y-%m-%d')
+    li = ul.find_all('li')[0]
+    date = li.find('span').text.strip()
+    if date == today:
+        return url
+        
 if __name__ == '__main__':
     url = 'https://cn.bing.com'
     headers = {
