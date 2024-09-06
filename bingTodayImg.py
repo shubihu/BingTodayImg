@@ -107,12 +107,15 @@ def sign91():
     # 请求载荷
     payload = {"integralAddType": "1"}
     # 发送 POST 请求
-    response = requests.post(url, json=payload, headers=headers)
-    
-    # 打印响应状态码和内容
-    print("Status Code:", response.status_code)
-    print("Response Body:", response.json()['data'])
-    return response.json()['data']['message']
+    try:
+        response = requests.post(url, json=payload, headers=headers)
+        
+        # 打印响应状态码和内容
+        print("Status Code:", response.status_code)
+        print("Response Body:", response.json()['data'])
+        return response.json()['data']['message']
+    except:
+        return '91fail'
 
 def get_work():
     time.sleep(3)
