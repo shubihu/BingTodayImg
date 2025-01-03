@@ -93,7 +93,7 @@ def testUrl(url):
 def sign91():
     # 请求地址
     time.sleep(3)
-    url = "https://91huajian.cn/huajian/integral/addIntegralLog"
+    url = "https://maobucv.com/huajian/integral/addIntegralLog"
     # 定义请求头
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
@@ -101,7 +101,7 @@ def sign91():
         'Accept-Encoding': 'gzip, deflate, br, zstd',
     #     'Cookie': cookie_header,
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Impyd2piQHNpbmEuY29tIiwicm9sZXMiOlsiVXNlciJdLCJpYXQiOjE3MDkwODg1NDIsImV4cCI6MTc0NTA4ODU0Mn0.iZlyF5ps_d_C-AGs9NXlop2PayGhKD_Mi4gCeI6VCaE"
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Impyd2piQHNpbmEuY29tIiwicm9sZXMiOlsiVXNlciJdLCJpYXQiOjE3MzU4NzM3NDksImV4cCI6MTc3MTg3Mzc0OX0.tgKwFiqYiHz5Nzjw2r-UXfUPMXRuwq1TGowmNcNhHpY"
     }
         
     # 请求载荷
